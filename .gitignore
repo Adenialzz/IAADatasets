@@ -1,0 +1,17 @@
+# python
+__pycache__/
+
+# images
+*.jpg
+*.jpeg
+*.JPEG
+*.png
+
+# results
+*.json
+*.npy
+*.pkl
+
+# log
+*.log
+*.out
