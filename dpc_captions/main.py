@@ -18,8 +18,8 @@ def get_dpc_captions_images_list():
 
 def main():
     image_set = get_dpc_captions_images_list()
-    crawler = DPCImageCrawler('./work_dir', ua_file='../misc/user_agents.txt')
-    crawler.run(image_set)
+    crawler = DPCImageCrawler('work_dir', ua_file='../misc/user_agents.txt')
+    crawler.run(image_set, num_threads=10)
 
 if __name__ == '__main__':
     main()
