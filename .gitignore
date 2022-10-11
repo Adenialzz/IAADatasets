@@ -11,6 +11,7 @@ __pycache__/
 *.json
 *.npy
 *.pkl
+word_dir/
 
 # log
 *.log
@@ -18,3 +19,6 @@ __pycache__/
 
 # datas
 DPC-Captions/
+
+# misc
+debug/
